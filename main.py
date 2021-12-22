@@ -36,7 +36,3 @@ def bmiCalculator():
 bmiCalculator()
 
 print("Go to https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html for more information on adult BMI.")
-
-#this is a test for git
-#adding more stuff
-#PULLING FROM MAIN
