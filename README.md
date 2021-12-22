@@ -14,7 +14,9 @@ But I also wanted to see the work with BMI considering the United States Obesity
 
 [https://www.cdc.gov/obesity/data/obesity-and-covid-19.html](ObesityAndCOVID) Obesity and COVID-19
 
-[https://www.cdc.gov/obesity/data/prevalence-maps.html](ObesityPrevelenceMaps) Obesity prevelence maps
+https://www.cdc.gov/obesity/data/prevelance-maps.html Obesity prevelence maps
+
+
 
 ## Images
 CDC 2020 Adult Obesity Prevalence Maps for 50 States
