@@ -15,6 +15,7 @@ canvas = tk.Canvas(root, width=600, height=300)
 # add entry for wight(kg) and height(cm)
 # MAYBE add a link for kg and cm to inches and pounds for conversion
 # add title to window "Body Mass Index Calculator"
+# add links
 # ---------------------------------------------------------------------------
 
 
