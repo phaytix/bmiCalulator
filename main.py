@@ -5,7 +5,7 @@ root = tk.Tk()
 
 canvas = tk.Canvas(root, width=600, height=300)
 
-##--------------------------------------------------------------------------->
+# ---------------------------------------------------------------------------
 # LOOK INTO 
 # fix button so its at the bottom instead of at the top
 # see if you can add 2 seperate files "board.py" and import into "main.py" for the WIDTH
@@ -15,7 +15,9 @@ canvas = tk.Canvas(root, width=600, height=300)
 # add entry for wight(kg) and height(cm)
 # MAYBE add a link for kg and cm to inches and pounds for conversion
 # add title to window "Body Mass Index Calculator"
-##--------------------------------------------------------------------------->
+# ---------------------------------------------------------------------------
+
+
 
 # button
 btn = tk.Button(root, text="Calculate")
