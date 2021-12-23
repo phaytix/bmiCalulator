@@ -8,7 +8,7 @@ canvas = tk.Canvas(root, width=600, height=300)
 # ---------------------------------------------------------------------------
 # LOOK INTO 
 # fix button so its at the bottom instead of at the top
-# see if you can add 2 seperate files "board.py" and import into "main.py" for the WIDTH
+# see if you can add 2 separate files "board.py" and import into "main.py" for the WIDTH
 # and HEIGHT of the board
 # or just add into "frame" 
 # --------------------------------------------
@@ -16,6 +16,11 @@ canvas = tk.Canvas(root, width=600, height=300)
 # MAYBE add a link for kg and cm to inches and pounds for conversion
 # add title to window "Body Mass Index Calculator"
 # add links
+# add a page or health links since this is a health app or website then again if this does 
+# turn into a website id like to have way more stuff but for the most part what we have
+# should be fine
+# I also don't really care about design that much besides for a minimalism aspect of the
+# app or website i just want it clean and sleek
 # ---------------------------------------------------------------------------
 
 
@@ -33,7 +38,7 @@ root.mainloop()
 
 
 
-# calculate BMI
+# calculate BMI literally the only code we need for the calculator unless you have more to add but this should be fine
 def bmiCalculator():
     print("""BMI is a person’s weight in kilograms divided by the square of height in meters. A high BMI can indicate high body fatness.\n""")
     weight = float(input("Your weight in kg: "))
