@@ -1,6 +1,5 @@
 import tkinter as tk
-from bmiCalculator.board import board
-
+# still have to import the board or code in here idc or know yet so
 root = tk.Tk()
 
 canvas = tk.Canvas(root, width=600, height=300)
