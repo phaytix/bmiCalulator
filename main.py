@@ -1,9 +1,45 @@
 import tkinter as tk
+from tkinter.constants import LEFT, RIGHT, TOP
+
+
 # still have to import the board or code in here idc or know yet so
 root = tk.Tk()
 
-canvas = tk.Canvas(root, width=600, height=300)
+window = (root, '800X300')
 
+frame = tk.Frame(root)
+frame.pack()
+
+def labels():
+# label 1
+   label1 = tk.Label(root, text="Weight")
+   label1.pack(side = LEFT)
+
+# entry 1
+   entry1 = tk.Entry(bd=5)
+   entry1.pack(side = RIGHT) 
+
+# label 2
+   label2 = tk.Label(root, text="Height")
+   label2.pack(side = LEFT)
+
+
+# entry 2
+   entry2 = tk.Entry(TOP, bd=5)
+   entry2.pack(side = RIGHT) 
+   
+   
+   labels()
+
+
+def buttons():
+    # button
+    button = tk.Button(root, text="Calculate")
+    button.pack()
+
+
+
+    buttons()
 # ---------------------------------------------------------------------------
 # LOOK INTO 
 # fix button so its at the bottom instead of at the top
@@ -21,17 +57,6 @@ canvas = tk.Canvas(root, width=600, height=300)
 # I also don't really care about design that much besides for a minimalism aspect of the
 # app or website i just want it clean and sleek
 # ---------------------------------------------------------------------------
-
-
-
-# button
-btn = tk.Button(root, text="Calculate")
-btn.pack()
-
-
-
-
-
 root.mainloop()
 
 
